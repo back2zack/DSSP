@@ -1,0 +1,5 @@
+ECHO is on.
+# .gitignore
+fabor_env/
+*.pyc
+__pycache__/
