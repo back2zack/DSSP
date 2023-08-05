@@ -70,10 +70,6 @@ plot_periodogram(frequencies,periodogram[0])
 PSD = np.mean(periodogram,axis=0,)
 plot_PSD(frequencies,PSD)
 
-
-# 
-
-
 # Compute the spectrogram
 frequencies, times, Sxx = spectrogram(signal, fs, window='hann', nperseg=npersegm, noverlap=noverlap)
 
